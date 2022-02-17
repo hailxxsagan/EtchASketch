@@ -1,0 +1,79 @@
+body {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-image: url(https://images.unsplash.com/photo-1534271057238-c2c170a76672?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80);
+}
+
+h1 {
+    color: white;
+    font-size: 50px;
+    text-shadow: 2px 2px 3px pink;
+}
+
+h2 {
+    color: white;
+    font-size: 20px;
+    text-shadow: 2px 2px 3px pink;
+}
+
+button {
+    color: white;
+    background-color: hsl(340, 79%, 63%);
+    padding: 8px;
+    border-radius: 8px;
+    transition-duration: 0.3s;
+    border: 1px solid;
+    border-color: white;
+}
+
+.button-1:hover {
+    color: white;
+    background-color: black;
+}
+
+.button-4:hover {
+    color: white;
+    background-color: red;
+}
+button:hover {
+    background-color: white;
+    color: black;
+}
+
+
+.board {
+    height: 500px;
+    width: 500px;
+    display: grid;
+    margin-bottom: 10px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.error {
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.rainbow-1:hover{
+    background-image: linear-gradient(90deg, #00C0FF 0%, #FFCF00 49%, #FC4F4F 80%, #00C0FF 100%);
+    animation: slidebg 5s linear infinite;
+ }
+
+ @keyframes slidebg {
+    to {
+      background-position:20vw;
+    }
+  }
+
+  footer {
+      margin-top: 20px;
+      color: white;
+      font-size: 12px;
+  }
